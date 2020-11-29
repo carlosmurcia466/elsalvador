@@ -10,7 +10,7 @@ app.set("views",path.join(__dirname,"views"));
 app.set("view engine","ejs");
 
 // middlewares
-app.use(morgan('dev'));
+
 
 //routes
 app.use(require(path.join(__dirname,"./routes/routes")));
